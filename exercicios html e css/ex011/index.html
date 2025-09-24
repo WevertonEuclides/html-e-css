@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse síte em vários dispositivos diferentes</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/grande.png" alt="imagem flexível">
+    <p>As Tags usadas acima foram: <code>&lt;picture&gt;</code> =Tag usada para criar várias fontes com relação a imagens</p>
+    <p>A proxíma tag é: <code>&lt;source:media:type&gt;</code> lembrando de começar sempre pelo maior(max) ex: <code>&lt;sourcer media="(max-width: quantidade de px)" srcset="local que a imagem está salva" type="image/png"&gt;</code></p>
+</picture>
+    <h1>Vamos aprender a reproduzir áudios</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/risada-do-kiko.mp3" type="audio/mpeg">
+    </audio>
+    <P><B>Tags usadas acima:</B></P> 
+    <p><code>
+        <pre>
+            &lt;audio&gt; preload="auto" controls
+                    &lt;source src="<B>Arquivo de audio</B>" type="<b>formato do audio</b>"
+                    &lt;/audio&gt;
+        </pre>
+    </code>
+</body>
+</html>
