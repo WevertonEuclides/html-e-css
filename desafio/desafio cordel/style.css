@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+    max-width: 1000;
+    min-width: 400px;
+    height: 98vh;
+    background: white url("imagens/background001.jpg") center center /cover no-repeat fixed;
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    padding: 7px;
+}
+header {
+    background-color: black;
+    color: white;
+    margin: -10px;
+    padding: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.p1 {
+    background-color: white;
+    padding: 20px;
+    border: 20px;
+}
+.p2 {
+    padding: 20px;
+    color: white;
+    height: 350px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.39);
+    margin: 50px 0px 50px 10px;
+}
+
+.p3 {
+    background-color: white;
+    padding: 20px;
+}
+
+.p4 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    height: 350px;
+    width: 250px;
+    padding: 20px;
+    margin: 50px 0px 50px 10px;
+}
+
+.p5 {
+    background-color: white;
+    padding: 7px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin: -10px;
+    text-align: center;
+    padding: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
