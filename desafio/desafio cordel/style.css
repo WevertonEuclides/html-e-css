@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Story+Script&display=swap');
+
 body {
     margin: auto;
     max-width: 1000;
@@ -12,6 +14,7 @@ p {
     font-style: italic;
     font-weight: normal;
     padding: 7px;
+    
 }
 header {
     background-color: black;
